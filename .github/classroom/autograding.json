@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Aufgabe1/T1",
+      "setup": "npm install",
+      "run": "npm test -- -t 'meeting Objekt datum'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T2",
+      "setup": "npm install",
+      "run": "npm test -- -t 'meeting Objekt location'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T3",
+      "setup": "npm install",
+      "run": "npm test -- -t 'meeting Objekt attendees'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T4",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen Einladung vor dem Meeting'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T5",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen Anzahl der eingeladenen Teilnehmer'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T6",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen String Properties und ihre Werte'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T7",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen Zugesagte Teilnehmer'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T8",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen Abgesagte Teilnehmer'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T9",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Funktionen dynamisch'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
