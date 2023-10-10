@@ -52,7 +52,8 @@ function abgesagteTeilnehmer(meeting) {
 }
 
 export default { meeting, zeitBerechnen, anzahlTeilnehmer, propsAnzeigen, zugesagteTeilnehmer, abgesagteTeilnehmer }
-if (import.meta.url.endsWith(process.argv[1])) {
+import { pathToFileURL as _path } from 'url'
+if (import.meta.url === _path(process.argv[1]).href) {
     zeitBerechnen(meeting);
     anzahlTeilnehmer(meeting);
     propsAnzeigen(meeting);
